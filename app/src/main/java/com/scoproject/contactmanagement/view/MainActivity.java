@@ -1,7 +1,9 @@
-package com.scoproject.contactmanagement;
+package com.scoproject.contactmanagement.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.scoproject.contactmanagement.R;
 
 public class MainActivity extends AppCompatActivity {
 
