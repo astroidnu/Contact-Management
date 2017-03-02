@@ -75,6 +75,7 @@ dependencies {
     compile okhttp3.loggingInterceptor
 
     compile rxDependencies.rxAndroid
+    compile rxDependencies.rxJava
     compile circleImageView
     compile glide
 

@@ -5,8 +5,7 @@ import android.os.Bundle;
 
 import com.scoproject.contactmanagement.R;
 
-public class MainActivity extends AppCompatActivity {
-
+public class ContactActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
