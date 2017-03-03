@@ -1,7 +1,5 @@
 package com.scoproject.contactmanagement.di.ui;
 
-import com.scoproject.contactmanagement.di.scope.ApplicationScope;
-import com.scoproject.contactmanagement.view.navigation.ActivityScreenSwitcher;
 
 import dagger.Module;
 import dagger.Provides;
@@ -15,10 +13,5 @@ import dagger.Provides;
 @Module
 public class AppUIModule {
 
-    @Provides
-    @ApplicationScope
-    ActivityScreenSwitcher provideActivityScreenSwitcher() {
-        return new ActivityScreenSwitcher();
-    }
 }
 

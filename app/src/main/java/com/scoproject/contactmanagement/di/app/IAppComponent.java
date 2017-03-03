@@ -1,7 +1,6 @@
 package com.scoproject.contactmanagement.di.app;
 
 import com.scoproject.contactmanagement.app.ContactManagementApp;
-import com.scoproject.contactmanagement.view.navigation.ActivityScreenSwitcher;
 
 /**
  * Created by ibnumuzzakkir on 16/02/2017.
@@ -12,5 +11,4 @@ import com.scoproject.contactmanagement.view.navigation.ActivityScreenSwitcher;
 public interface IAppComponent {
 
     void inject (ContactManagementApp app);
-    ActivityScreenSwitcher activityScreenSwitcher();
 }
