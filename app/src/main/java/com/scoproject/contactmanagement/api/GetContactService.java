@@ -32,7 +32,7 @@ public class GetContactService {
 
     }
 
-    public void addContact(final AddContactService.GetResponseCallback callback){
+    public void getContact(final AddContactService.GetResponseCallback callback){
         if(mIsGetAllContact){
             mNetworkService.getAllContact()
                     .subscribeOn(Schedulers.io())

@@ -3,7 +3,7 @@ package com.scoproject.contactmanagement.network.response;
 import com.google.gson.annotations.SerializedName;
 
 /**
- * Created by ibnumuzzakkir on 02/03/2017.
+ * Created by ibnumuzzakkir on 03/03/2017.
  * Android Developer
  * Garena Indonesia
  */

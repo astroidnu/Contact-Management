@@ -33,7 +33,7 @@ public class UpdateContactService {
 
     }
 
-    public void addContact(final AddContactService.GetResponseCallback callback){
+    public void updateContact(final AddContactService.GetResponseCallback callback){
         mNetworkService.updateContact(mId, data)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
