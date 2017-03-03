@@ -7,4 +7,5 @@ package com.scoproject.contactmanagement.app;
  */
 
 public class AppConst {
+
 }

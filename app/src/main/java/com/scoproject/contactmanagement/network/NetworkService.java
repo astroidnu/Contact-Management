@@ -5,6 +5,7 @@ import com.scoproject.contactmanagement.data.Contact;
 import java.util.HashMap;
 
 import io.reactivex.Observable;
+import retrofit2.http.Body;
 import retrofit2.http.FieldMap;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
@@ -27,10 +28,10 @@ public interface NetworkService {
 
     @FormUrlEncoded
     @POST("/contacts.json")
-    Observable<Contact> addContact(@FieldMap HashMap<String, String> data);
+    Observable<Contact> addContact(@Body HashMap<String, String> data);
 
     @FormUrlEncoded
     @PUT("/contacts/{id}.json")
-    Observable<Contact> updateContact(@FieldMap HashMap<String, String> data);
+    Observable<Contact> updateContact(@Path("id") String id, @Body HashMap<String, String> data);
 
 }
